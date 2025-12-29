@@ -1,0 +1,22 @@
+# requirements.txt for Bahasa-lo
+
+# Sistem file & OS interaction
+os-sys
+
+# Eksekusi command shell
+subprocess
+
+# Regex & parsing
+re
+
+# Waktu & progress
+time
+
+# Serialize data
+pickle
+
+# HTTP requests (jika perlu download plugin atau rootfs)
+requests
+
+# Terminal colors / tampilan opsional
+colorama
