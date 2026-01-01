@@ -33,23 +33,6 @@ Bahasa-lo adalah bahasa pemrograman berbasis Python dengan kata kunci Bahasa Ind
 
 ---
 
-📂 Struktur Folder
-
-.
-bahasa-lo/
-├── main.py                  # Entry point sistem
-├── blo_interpreter.py       # Kamus & translator Bahasa-lo (.blo → Python)
-├── blo_repl.py              # REPL Bahasa-lo
-├── plugin_loader.py         # Loader & manager plugin
-├── downloads/               # Semua file hasil download & plugin
-│   ├── plugins/             # Semua plugin (.py)
-│   └── packages/            # Hasil download (wget/curl/git)
-├── internal/                # Module internal sistem
-│   ├── int_mod_loader.py    # Loader modul internal (backend)
-│   └── int_mod/             # Modul internal (seperti permission engine)
-│       └── permission_engine.py
-└── README.md
-
 ---
 
 ▶️ Cara Menjalankan
