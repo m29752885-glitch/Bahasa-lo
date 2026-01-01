@@ -10,17 +10,6 @@ Clone ke lokal / VPS:
 # Buat branch baru untuk fitur / bug fix:
 ``git checkout -b nama-fitur``
 # Struktur Folder
-Bahasa-lo/
-├── main.py                # Entry point sistem
-├── blo_interpreter.py     # Kamus & translator Bahasa-lo
-├── blo_repl.py            # REPL Bahasa-lo (.blo)
-├── plugin_loader.py       # Loader & manager plugin
-├── downloads/
-│   ├── plugins/           # Semua plugin (.py)
-│   └── packages/          # Hasil download (wget/curl/git)
-├── README.md
-└── config/
-└── pkg_config.py      # Konfigurasi folder & progress
 Semua plugin diletakkan di ./downloads/plugins/
 Plugin harus .py dan fungsi utama bisa dipanggil saat load
 Plugin bisa diaktifkan manual atau auto reload
