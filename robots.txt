@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://m29752885-glitch.github.io/sitemap.xml
