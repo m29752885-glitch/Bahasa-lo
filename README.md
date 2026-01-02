@@ -190,7 +190,7 @@ Bisa dipakai di Termux / Linux / VPS
 
 📌 Status Proyek
 
-Versi: v1 (stabil)
+Versi: v2 (stabil)
 
 Target: Open Source
 
