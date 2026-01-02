@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Panduan Bahasa-lo (.blo)</title>
+    <meta name="description" content="Panduan lengkap Bahasa-lo: Python versi Indonesia (.blo) dengan REPL, Plugin, Linux command, dan AI agent.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Panduan Bahasa-lo (.blo)</h1>
+    <p>Selamat datang! Ini panduan lengkap Bahasa-lo, bahasa Python versi Indonesia dengan ekstensi <code>.blo</code>.</p>
+
+    <div class="card">
+        <h2>🔹 REPL Interaktif</h2>
+        <p>Untuk mencoba kode <code>.blo</code> secara langsung, gunakan:</p>
+        <ul>
+            <li><code>python blo_repl.py</code></li>
+            <li>Prompt akan muncul sesuai level: <code>(+)></code> User, <code>[#]></code> Root, <code>{+}></code> Admin</li>
+            <li>Perintah dasar:</li>
+            <ul>
+                <li><code>tulis "Halo"</code> → print ke layar</li>
+                <li><code>masukan "Nama:"</code> → input user</li>
+                <li><code>jalankan namafile.blo</code> → jalankan file .blo</li>
+                <li><code>keluar</code> → keluar REPL</li>
+            </ul>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🔹 Sistem Plugin</h2>
+        <p>Semua plugin diletakkan di <code>./downloads/plugins</code> sebagai file .py</p>
+        <ul>
+            <li>Auto reload plugin: <code>from plugin_loader import auto_reload_all; auto_reload_all()</code></li>
+            <li>Aktifkan plugin manual: <code>from plugin_loader import activate_single_plugin; activate_single_plugin("NamaPlugin")</code></li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🔹 Command Linux</h2>
+        <p>Bisa menjalankan command Linux langsung di REPL jika perintah tidak ditemukan di .blo/Python:</p>
+        <ul>
+            <li>Download file otomatis masuk <code>./downloads</code></li>
+            <li>Contoh: <code>wget https://example.com/file</code>, <code>git clone https://github.com/repo.git</code></li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🔹 Membuat File / Folder / Hapus / Edit</h2>
+        <ul>
+            <li><code>buat file namafile.blo</code> → membuat file baru</li>
+            <li><code>buat folder namafolder</code> → membuat folder baru</li>
+            <li><code>hapus namafile/folder</code> → hapus file/folder</li>
+            <li><code>edit namafile.blo</code> → buka file di editor (nano) untuk mengubah</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🔹 AI Agent Adaptive</h2>
+        <p>Agent cerdas untuk bantu belajar dan jalankan file .blo:</p>
+        <ul>
+            <li>Periksa file baru: <code>scan</code></li>
+            <li>Jalankan file: <code>jalankan namafile.blo</code></li>
+            <li>Minta tips: ketik perintah .blo untuk info</li>
+            <li>Keluar: <code>keluar</code></li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🔹 Tips Pemula</h2>
+        <ul>
+            <li>Gunakan indentasi 4 spasi untuk fungsi dan loop</li>
+            <li>Gunakan bahasa Indonesia untuk semua kode .blo</li>
+            <li>Simpan semua plugin di folder <code>./downloads/plugins</code></li>
+            <li>Semua hasil download otomatis masuk <code>./downloads/packages</code></li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>© 2025 Bahasa-lo • Open Source • <a href="https://github.com/m29752885-glitch/Bahasa-lo" target="_blank">GitHub</a></p>
+    </footer>
+</div>
+
+</body>
+  </html>
