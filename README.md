@@ -200,7 +200,7 @@ https://discord.gg/SVYD97qmre
 
 📌 Status Proyek
 
-Versi: v2 (stabil)
+Versi: v2.5 (stabil)
 
 Target: Open Source
 
